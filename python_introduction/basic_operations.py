@@ -1,5 +1,5 @@
-number1 , number2 = 10 ,5
-
+number1 = 10
+number2 = 5
 sum = number2 + number1
 subtraction = number1 - number2
 multiplication = number2 * number1
