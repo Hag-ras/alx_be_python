@@ -4,15 +4,15 @@ operation = input('Choose the operation (+, -, *, /): ')
 
 match operation:
     case '+':
-        print( first + second)
+        print('The result is ', first + second)
     case '-':
-        print( first - second)
+        print('The result is ', first - second)
     case '*':
-        print( first * second)
+        print('The result is ', first * second)
     case '/':
         if second==0:
             print('Cannot divide by zero.')
         else:
-            print( first / second )
+            print('The result is ', first / second)
     case _:
         print('Invalid Operation')
