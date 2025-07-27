@@ -1,6 +1,6 @@
 from datetime import datetime
 def display_current_datetime():
-    current_date = datetime.datetime.now()
+    current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     return current_date
 def calculate_future_date(days):
     future_date = display_current_datetime() + datetime.timedelta(days=days)
